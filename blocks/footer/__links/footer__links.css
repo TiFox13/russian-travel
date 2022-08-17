@@ -1,19 +1,16 @@
-.footer {
+.footer__links {
+    list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    max-width: 1184px;
-    margin: 0 auto;
-    padding-bottom: 24px;
+    flex-wrap: nowrap;
 }
 
-
 @media all and (max-width: 320px){
-    .footer{
+    .footer__links{
         margin: 0;
+        padding: 0;
         max-width: 186px;
         flex-wrap: wrap;
         flex-direction: column;
-        align-items: flex-start;
 
     }
     } 

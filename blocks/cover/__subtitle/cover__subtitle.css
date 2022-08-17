@@ -12,3 +12,16 @@ line-height: 22px;
 /* or 122% */
 text-align: center;
 }
+
+
+@media all and (max-width: 320px){
+    .cover__subtitle{
+        margin: 16px auto 0;
+        max-width: 288px;
+        font-size: 14px;
+line-height: 16px;
+
+
+/* or 114% */
+    }
+    } 

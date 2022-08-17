@@ -5,3 +5,13 @@
     grid-row: 1;
     align-self: end;  
 }
+
+
+@media all and (max-width: 320px){
+    .place__website{
+        max-width: 288px;
+        grid-column: 1;
+        grid-row: 2;
+        align-self: start;
+    }
+    } 

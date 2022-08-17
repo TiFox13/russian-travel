@@ -1,8 +1,18 @@
 .place {
     display: grid;
     grid-template-columns: 460px 484px;
-    grid-template-rows: min-content 484px;
+    grid-template-rows: 152px 484px;
     column-gap: 40px;
     row-gap: 48px;
     padding-bottom: 80px;
  }
+
+ @media screen and (max-width: 320px){
+    .place{
+        max-width: 288px;
+        grid-template-rows: min-content;
+       column-gap: 0;
+       row-gap: 32px; 
+       padding-bottom: 50px;
+    }
+    } 

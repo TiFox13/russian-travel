@@ -2,8 +2,18 @@
     max-width: 1184px;
     height: 740px;
     background-image: url(../../images/__background.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     margin: 0 auto;
     position: relative;
     padding-bottom: 92px;
 }
+
+
+@media screen and (max-width: 320px){
+    .cover{
+        max-width: 320px;
+        height: 200px;
+        padding-bottom: 64px;
+    }
+    } 
