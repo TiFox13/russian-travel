@@ -31,7 +31,7 @@
         grid-template-columns: 320px;
         grid-template-rows: min-content;
        column-gap: 0;
-       row-gap: 32px; 
+       row-gap: 32px;
        padding: 0;
     }
     } 
