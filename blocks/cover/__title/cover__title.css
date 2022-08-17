@@ -2,7 +2,6 @@
     position: relative;
     z-index: 2;
     margin: 0 auto;
-    padding-top: 245px;
     max-width: 560px;
     color: #fff;
     font-style: normal;
@@ -19,8 +18,5 @@ text-align: center;
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
-        padding-top: 33px;
-
-/* or 109% */
     }
     } 

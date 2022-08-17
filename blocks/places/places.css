@@ -14,3 +14,16 @@
         padding-bottom: 66px;
     }
     } 
+
+@media screen and (max-width: 768px){
+    .places {
+        max-width: 720px;
+        padding-top: 88px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .places {
+        max-width: 928px;
+    }
+}

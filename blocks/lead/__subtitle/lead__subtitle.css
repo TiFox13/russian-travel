@@ -1,4 +1,4 @@
-.lead__subtetle {
+.lead__subtitle {
     max-width: 640px;
     margin: 0 auto;
     color: #FFF;
@@ -9,8 +9,8 @@ line-height: 36px;
 padding-bottom: 64px;
 }
 
-@media screen and (max-width: 320px){
-    .lead__subtetle {
+@media all and (max-width: 320px){
+    .lead__subtitle {
         max-width: 288;
         font-size: 16px;
         line-height: 20px;
@@ -18,3 +18,15 @@ padding-bottom: 64px;
 /* or 125% */
     }
     }
+
+@media screen and (max-width: 768px){
+    .lead__subtitle {
+        padding-bottom: 56px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .lead__subtitle {
+        padding-bottom: 56px;
+    }
+}

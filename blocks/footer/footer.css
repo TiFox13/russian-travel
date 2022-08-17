@@ -17,3 +17,21 @@
 
     }
     } 
+
+    @media screen and (max-width: 768px){
+        .footer{
+            padding: 0 24px 24px;
+            max-width: 720px;
+            flex-wrap: wrap;
+    
+        }
+} 
+
+@media screen and (max-width: 1024px){
+    .footer{
+        padding: 0 48px 24px;
+        max-width: 1024px;
+        flex-wrap: wrap;
+
+    }
+} 
