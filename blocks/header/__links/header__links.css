@@ -17,3 +17,14 @@ text-decoration: none;
 .header__link_active {
     text-decoration: underline;
 }
+
+
+@media screen and (max-width: 320px){
+    .header__link{
+    font-size: 18px;
+    line-height: 20px;
+
+/* identical to box height, or 111% */
+    }
+    }
+
