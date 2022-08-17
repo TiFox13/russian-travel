@@ -6,4 +6,4 @@
 * оптимизировать код
 
 ### Ссылка на проект на GitHub
-https://github.com/TiFox13/russian-travel.git
+https://tifox13.github.io/russian-travel/
