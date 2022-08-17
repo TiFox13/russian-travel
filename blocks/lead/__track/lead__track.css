@@ -1,0 +1,10 @@
+.lead__track {
+    position: absolute;
+    z-index: 2;
+    top: 90.21px;
+    left: 23px;
+    background-image: url(../../../images/Group.png);
+    background-repeat: no-repeat;
+    width: 937.09px;
+    height: 262.99px;
+}
