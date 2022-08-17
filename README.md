@@ -5,3 +5,5 @@
 * сделать переходы более плавными
 * оптимизировать код
 
+### Ссылка на проект на GitHub
+https://github.com/TiFox13/russian-travel.git
