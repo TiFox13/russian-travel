@@ -7,13 +7,11 @@
     padding-bottom: 0;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 1024px){
     .places {
-        max-width: 288px;
-        padding-top: 64px;
-        padding-bottom: 66px;
+        max-width: 928px;
     }
-    } 
+}
 
 @media screen and (max-width: 768px){
     .places {
@@ -22,8 +20,11 @@
     }
 }
 
-@media screen and (min-width: 1024px){
+
+@media screen and (max-width: 320px){
     .places {
-        max-width: 928px;
+        max-width: 288px;
+        padding-top: 64px;
+        padding-bottom: 66px;
     }
-}
+    } 
