@@ -1,8 +1,12 @@
 .header__links {
-    padding-left: 0;
+
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    margin: 0 0 8px 18px;
+    margin: 0 0 8px;
+}
+
+.header__links:last-child {
+    padding-left: 0;
 }
 
