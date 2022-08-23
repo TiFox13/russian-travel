@@ -1,8 +1,8 @@
 .header__links {
+    padding-left: 0;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    margin: 0 0 8px;
+    margin: 0 0 8px 18px;
 }
-
 
