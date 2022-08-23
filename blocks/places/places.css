@@ -2,10 +2,9 @@
     max-width: 984px;
     margin: 0 auto;
     padding-top: 92px;
+    padding-bottom: 92px;
 }
-.places:last-child {
-    padding-bottom: 0;
-}
+
 
 @media screen and (max-width: 1024px){
     .places {
@@ -23,7 +22,7 @@
 
 @media screen and (max-width: 320px){
     .places {
-        max-width: 288px;
+        max-width: 320px;
         padding-top: 64px;
         padding-bottom: 66px;
     }

@@ -17,6 +17,9 @@ align-self: end;
         font-size: 42px;
         line-height: 46px;
     }
+    .place__title .new-string {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 320px){
@@ -25,5 +28,8 @@ align-self: end;
         width: 288px;
         font-size: 32px;
         line-height: 35px;
+    }
+    .place__title .new-string {
+        display: inline;
     }
     } 
