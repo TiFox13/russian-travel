@@ -48,7 +48,6 @@
         row-gap: 12px;
     }
 }
-/*
 @media all and (max-width: 320px){
     .photo-grid {
         max-width: 288px;
