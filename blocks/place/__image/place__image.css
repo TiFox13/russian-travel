@@ -4,17 +4,19 @@
     max-width: 100%;
 }
 
-@media all and (max-width: 320px){
-    .place__image{
+
+
+
+@media screen and (max-width: 768px) {
+    .place__image {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .place__image {
         grid-column: 1;
         grid-row: 3;
         max-width: 320px;
     }
-    } 
-
-
-@media screen and (max-width: 768px){
-        .place__image{
-          width: 100%;
-        }
-        } 
+}

@@ -4,21 +4,17 @@
     margin: 0;
     color: #fff;
     font-style: normal;
-font-weight: 900;
-font-size: 72px;
-line-height: 76px;
-align-self: end;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    align-self: end;
 }
-
 
 @media screen and (max-width: 768px){
     .place__title {
         width: 100%;
         font-size: 42px;
         line-height: 46px;
-    }
-    .place__title .new-string {
-        display: block;
     }
 }
 
@@ -29,7 +25,5 @@ align-self: end;
         font-size: 32px;
         line-height: 35px;
     }
-    .place__title .new-string {
-        display: inline;
-    }
-    } 
+
+} 

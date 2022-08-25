@@ -33,25 +33,21 @@
    .place {
       box-sizing: border-box;
       width: 100%;
-      padding: 0 48px 50px 48px;
+      padding: 0 3.5vw 50px 3.5vw;
       display: flex;
       flex-direction: row;
       align-items: flex-start;
       flex-wrap: wrap;
    }
-/*
-   .place:nth-child(3) {
-      order: 0;
-   }*/
 }
 
 
 @media all and (max-width: 320px){
     .place{
-        grid-template-columns: minmax(min-content, 320px);
-        grid-template-rows: min-content;
-       column-gap: 0;
-       row-gap: 32px;
-       padding-bottom: 50px;
+      padding: 0 0 50px;
+      grid-template-columns: minmax(min-content, 320px);
+      grid-template-rows: min-content;
+      column-gap: 0;
+      row-gap: 32px;
     }
-    } 
+} 

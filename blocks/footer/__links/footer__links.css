@@ -23,14 +23,21 @@
         }
 } 
 
+@media screen and (max-width: 675px) {
+    .footer__links {
+        max-width: 250px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
 
-@media all and (max-width: 320px){
-    .footer__links{
+@media all and (max-width: 320px) {
+    .footer__links {
         margin: 0;
         padding: 0;
-        max-width: 186px;
-        flex-wrap: wrap;
+        max-width: 250px;
+        flex-wrap: nowrap;
         flex-direction: column;
 
     }
-    } 
+}

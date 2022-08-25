@@ -2,21 +2,21 @@
     margin-top: 0;
     margin-left: 18px;
     font-weight: 400;
-font-size: 16px;
-line-height: 18px;
+    font-size: 16px;
+    line-height: 1.125;
 }
+
 .footer__link:first-child {
     margin-left: 0;
 }
 
-@media all and (max-width: 320px){
-    .footer__link{
-        max-width: 186px;
+@media screen and (max-width: 675px) {
+    .footer__link {
+        max-width: 200px;
         margin-left: 0;
         margin-bottom: 32px;
-        font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
+        font-size: 20px;
+        line-height: 1;
     }
     .footer__link:last-child {
         padding-bottom: 48px;
@@ -24,15 +24,14 @@ line-height: 18px;
     }
 }
 
-@media all and (max-width: 768px){
-   
-
+@media all and (max-width: 320px){
+    .footer__link{
+        font-size: 24px;
+    }
+    
 }
 
-@media screen and (max-width: 1024px){
-    .footer__link:first-child {
-        margin-left: 0px;} 
-    }
+
 
     
     
