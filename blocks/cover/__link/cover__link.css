@@ -1,6 +1,5 @@
 .cover__link {
     text-decoration: none;
-   /* min-height: 740px;*/
     aspect-ratio: 16 / 9.9999;
     background-image: url(../../../images/__background.png);
     background-size: cover;
