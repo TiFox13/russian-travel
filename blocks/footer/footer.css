@@ -23,6 +23,7 @@
     .footer {
         margin: 0;
         align-items: flex-start;
+        padding: 0 16px 24px;
 
     }
 }
