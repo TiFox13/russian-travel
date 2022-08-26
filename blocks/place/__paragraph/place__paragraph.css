@@ -16,7 +16,7 @@ line-height: 1.63;
  @media screen and (max-width: 768px){
         .place__paragraph {
             font-size: 16px;
-            padding-bottom: 1.63;
+            padding-bottom: 26px;
             
         }
 }
