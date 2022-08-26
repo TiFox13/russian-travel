@@ -23,7 +23,7 @@
         }
 } 
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 700px) {
     .footer__links {
         max-width: 250px;
         flex-wrap: nowrap;

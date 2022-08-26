@@ -6,15 +6,22 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    line-height: 76px;
+    line-height: 1.05;
     align-self: end;
 }
+
+@media screen and (max-width: 1024px){
+    .place__title {
+        font-size: 7.03vw;
+    }
+}
+
 
 @media screen and (max-width: 768px){
     .place__title {
         width: 100%;
         font-size: 42px;
-        line-height: 46px;
+        line-height: 1.09;
     }
 }
 
@@ -23,7 +30,6 @@
         margin: 0 auto;
         width: 288px;
         font-size: 32px;
-        line-height: 35px;
     }
 
 } 
