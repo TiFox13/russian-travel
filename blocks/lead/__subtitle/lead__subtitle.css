@@ -21,7 +21,6 @@ padding-bottom: 64px;
 @media screen and (max-width: 768px){
     .lead__subtitle {
         font-size: 3.9vw;
-        padding-bottom: 56px;
     }
 }
 @media all and (max-width: 320px){

@@ -8,18 +8,13 @@
 
 @media screen and (max-width: 1024px){
     .footer__links{
-        margin: 0;
-        padding: 0;
         flex-wrap: wrap;
     }
 } 
 
     @media screen and (max-width: 768px){
         .footer__links{
-            margin: 0;
-            padding: 0;
             max-width: 720px;
-            flex-wrap: wrap;
         }
 } 
 
@@ -28,16 +23,5 @@
         max-width: 250px;
         flex-wrap: nowrap;
         flex-direction: column;
-    }
-}
-
-@media all and (max-width: 320px) {
-    .footer__links {
-        margin: 0;
-        padding: 0;
-        max-width: 250px;
-        flex-wrap: nowrap;
-        flex-direction: column;
-
     }
 }
